@@ -7,6 +7,7 @@
 
 ```bash
 pnpm install
+mkdir database
 ```
 
 ## Usage

@@ -4,7 +4,7 @@
   "description": "Telegram bot for tracking habits",
   "scripts": {
     "preinstall": "npx only-allow pnpm",
-    "start": "nodemon src/bot.ts"
+    "start": "nodemon --watch src src/bot.ts"
   },
   "author": "",
   "license": "ISC",
