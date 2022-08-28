@@ -1,0 +1,19 @@
+{
+  "name": "habits-tracker-telegram",
+  "version": "0.0.1",
+  "description": "Telegram bot for tracking habits",
+  "scripts": {
+    "preinstall": "npx only-allow pnpm",
+    "start": "nodemon src/bot.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "telegraf": "4.9.0"
+  },
+  "devDependencies": {
+    "@tsconfig/node18": "1.0.1",
+    "@types/node": "^18.7.13"
+  }
+}
